@@ -70,8 +70,6 @@ tracked - это файлы, которые уже присутствовали 
 ```mermaid
 graph LR;
   untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
-
-%% стрелка без текста для примера: 
-  A --> B;
+  staged    -- "git commit -m <comment>"     --> tracked/comitted;
+  modified -- "git add" --> staged;
 ```
