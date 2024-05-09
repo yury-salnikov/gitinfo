@@ -99,6 +99,7 @@ tracked - это файлы, которые уже присутствовали 
 ---
 
 
+Язык MERMAID  
 ```mermaid
 graph LR;
   untracked -- "git add" --> staged;
